@@ -1,0 +1,20 @@
+command=doctor.sh
+command=doctor.sh
+run_id=proof-auth-001
+expected_cwd=/agent/repos/cypress-realworld-app
+live_cwd=/agent/repos/cypress-realworld-app
+expected_commit=0729f68ac220f7cda4ad09c5693dba11d7c532c6
+live_commit=0729f68ac220f7cda4ad09c5693dba11d7c532c6
+expected_origin=https://github.com/Stroymind/cypress-realworld-app
+live_origin=https://github.com/Stroymind/cypress-realworld-app
+expected_session=verify-rwa-proof-auth-001
+3000 12392 ::1
+3001 12452 ::
+port_owners=match
+doctor_exit=0
+doctor_exit=0
+command=yarn cypress:run --spec .cursor/skills/verify-rwa/helpers/invalid-credentials.cy.ts
+node_version=v22.20.0
+yarn_version=1.22.22
+cypress_exit=0
+drive_exit=0
