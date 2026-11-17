@@ -1,0 +1,40 @@
+started_at=2026-11-17T17:26:44Z
+command=launch.sh
+root=/agent/repos/cypress-realworld-app
+run_id=proof-auth-001
+database_snapshot=/tmp/verify-rwa-proof-auth-001/database.json.before
+v22.20.0 is already installed.
+Now using node v22.20.0 (npm v10.9.3)
+Now using node v22.20.0 (npm v10.9.3)
+nvm_install_exit=0
+nvm_use_exit=0
+node_path=/home/ubuntu/.nvm/versions/node/v22.20.0/bin/node
+node_version=v22.20.0
+yarn_path=/home/ubuntu/.nvm/versions/node/v22.20.0/bin/yarn
+yarn_version=1.22.22
+command=yarn install --frozen-lockfile
+yarn install v1.22.22
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+success Already up-to-date.
+$ husky install && patch-package
+husky - Git hooks installed
+patch-package 7.0.2
+Applying patches...
+react-virtualized@9.22.5 ✔
+Done in 0.38s.
+yarn_install_exit=0
+tmux_new_exit=0
+tmux_send_exit=0
+probe frontend_http=000 api_http=000
+probe frontend_http=200 api_http=000
+probe frontend_http=200 api_http=000
+probe frontend_http=200 api_http=200
+ready=1
+Traceback (most recent call last):
+  File "<stdin>", line 14, in <module>
+ValueError: invalid literal for int() with base 10: 'S'
+3000 10414 ::1
+3001 10472 ::
+finished_at=2026-11-17T17:26:52Z
+launch_exit=0
